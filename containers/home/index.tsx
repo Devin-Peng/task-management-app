@@ -37,7 +37,7 @@ export default function Home() {
           <DialogTitle>New Task</DialogTitle>
         </DialogHeader>
         <DialogBody>
-          Test
+          TestTest
         </DialogBody>
         <DialogFooter>
           <DialogActionTrigger asChild>
