@@ -4,7 +4,7 @@ import taskReducer from './tasks/sliceReducer';
 export const makeStore = () => {
   return configureStore({
     reducer: combineReducers({
-        tasks: taskReducer
+        tasksState: taskReducer
     }),
     devTools: true
   })

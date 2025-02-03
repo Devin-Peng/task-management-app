@@ -1,0 +1,23 @@
+.taskCard {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.draggable {
+    width: 100%;
+    border: 1px solid red;
+}
+
+.textarea {
+    resize: none;  /* Allow vertical resizing */
+    min-height: 50px;  /* Set a minimum height for the input */
+    max-height: 150px; /* Optional: Set a maximum height */
+    width: '100%';
+    overflow-y: auto;
+    border: '1px solid lightgray';
+    padding: '8px';
+    border-radius: '4px';
+
+}
